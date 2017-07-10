@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>File Upload Test</title>
+    </head>
+    <body>
+        <div style="width: 50%; margin: 5% 0 0 25%;" >
+            <form id="uploadForm" action="upload" enctype="multipart/form-data" method="post">
+                <div style="width: 100%; margin: 0 0 1% 0; text-align: center;" >
+                    <label>Name</label>
+                    <input name="name" type="text"/>
+                </div>
+                <div style="width: 100%; margin: 0 0 1% 0; text-align: center;" >
+                    <label>Client Id</label>
+                    <input name="clientId" type="text" value="403"/>
+                </div>
+                <div style="width: 100%; margin: 0 0 1% 0; text-align: center;" >
+                    <input type="file" name="image" />
+                </div>
+                
+                <div style="width: 100%; margin: 0 0 1% 0; text-align: center;" >
+                <input  type="submit" value="Upload File" name="submit">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
